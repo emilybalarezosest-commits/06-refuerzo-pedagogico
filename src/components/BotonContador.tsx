@@ -78,10 +78,16 @@ const styles = StyleSheet.create({
     borderColor: '#0A0A0A',
     alignItems: 'center',
   },
-  // 🤔 ¿Qué propiedad de estilo necesita cada variante para pintarse con su color?
-  primary: {},
-  secondary: {},
-  danger: {},
+  // Asignamos la propiedad backgroundColor con los colores hex de la Paleta UETS
+  primary: {
+    backgroundColor: '#FDE047',
+  },
+  secondary: {
+    backgroundColor: '#38BDF8',
+  },
+  danger: {
+    backgroundColor: '#F43F5E',
+  },
   label: {
     fontWeight: '800',
     fontSize: 16,
